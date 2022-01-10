@@ -12,16 +12,11 @@ int main()
         for(int i=0; i<n; i++){
             for(int j=0; j<m; j++){
                 if(i==0 && j==0)
-                    a[i][j]='W';
+                    cout << 'W';
                 else
-                    a[i][j]='B';
+                    cout << 'B';
             }
-        }
-        for(int i=0; i<n; i++){
-            for(int j=0; j<m; j++){
-                cout<<a[i][j];
-            }
-            cout<<endl;
+            cout << endl;
         }
     }
     return 0;
