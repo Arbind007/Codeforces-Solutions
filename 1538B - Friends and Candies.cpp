@@ -20,6 +20,7 @@ void solve(){
             sum++;
     }
     cout << sum << endl;
+    return;
 }
 
 int main(){
